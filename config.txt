@@ -8,8 +8,5 @@ window['adrum-start-time'] = new Date().getTime();
     config.beaconUrlHttps = 'https://localhost:7001';
     config.xd = {enable : false};
 })(window['adrum-config'] || (window['adrum-config'] = {}));
-
-This is some custom configuration text
-
 </script>
 <script src='//cdn.appdynamics.com/adrum/adrum-latest.js'></script>
