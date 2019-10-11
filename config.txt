@@ -1,11 +1,11 @@
 <script charset='UTF-8'>
 window['adrum-start-time'] = new Date().getTime();
 (function(config){
-    config.appKey = 'key-goes-here';
+    config.appKey = 'local-AAB-AVY';
     config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
     config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
-    config.beaconUrlHttp = 'http://localhost:7001';
-    config.beaconUrlHttps = 'https://localhost:7001';
+    config.beaconUrlHttp = 'http://localhost:9001';
+    config.beaconUrlHttps = 'https://localhost:9001';
     config.xd = {enable : false};
 })(window['adrum-config'] || (window['adrum-config'] = {}));
 </script>
