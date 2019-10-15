@@ -5,7 +5,7 @@ window['adrum-start-time'] = new Date().getTime();
     config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
     config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
     config.beaconUrlHttp = 'http://localhost:9001';
-    config.beaconUrlHttps = 'https://localhost:9001';
+    config.beaconUrlHttps = 'http://localhost:9001';
     config.xd = {enable : false};
 })(window['adrum-config'] || (window['adrum-config'] = {}));
 </script>
