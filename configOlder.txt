@@ -9,5 +9,5 @@ window['adrum-start-time'] = new Date().getTime();
     config.xd = {enable : false};
 })(window['adrum-config'] || (window['adrum-config'] = {}));
 </script>
-<script src='//cdn.appdynamics.com/adrum/adrum-latest.js'></script>
+<script src='//cdn.appdynamics.com/adrum/adrum-20.5.0.3144.js'></script>
 
