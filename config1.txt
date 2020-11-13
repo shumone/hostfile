@@ -1,7 +1,7 @@
 <script charset='UTF-8'>
 window['adrum-start-time'] = new Date().getTime();
 (function(config){
-    config.appKey = 'local-AAB-config2';
+    config.appKey = 'local-AAB-config1';
     config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
     config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
     config.beaconUrlHttp = 'http://localhost:9001';
@@ -9,5 +9,4 @@ window['adrum-start-time'] = new Date().getTime();
     config.xd = {enable : false};
 })(window['adrum-config'] || (window['adrum-config'] = {}));
 </script>
-<script src='//cdn.appdynamics.com/adrum/20.8.0.3230.js'></script>
-
+<script src='//cdn.appdynamics.com/adrum/adrum-20.9.0.3268.js'></script>
